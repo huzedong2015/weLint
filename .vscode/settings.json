@@ -1,15 +1,17 @@
 {
-	/* vs code */
 	"files.exclude": {
 		"node_modules": true
 	},
-	"editor.formatOnSave": true /* 保存自动格式化 */,
+	"editor.formatOnSave": true,
 	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true /* 保存后自动修复 */
+		"source.fixAll.eslint": true
 	},
-
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"files.associations": {
-		"wxml": "html"
+		"*.wxml": "html",
+		"*.wxss": "css"
 	}
 }

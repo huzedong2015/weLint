@@ -11,6 +11,7 @@ module.exports = {
 	globals: {
 		wx: true,
 		App: true,
+		Page: true,
 	},
 	rules: {
 		"no-console": "off",
